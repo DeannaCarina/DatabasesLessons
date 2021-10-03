@@ -1,3 +1,5 @@
+-------------------------------------------------------Lesson 1
+
 To download sample sql database "Chinook":
 wget https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_PostgreSql.sql
 
@@ -48,3 +50,14 @@ SELECT * FROM "Album" WHERE "ArtistId" = 51;
 In this example, first collumn is the primary key ID, third collumn is the Foreign Key ID
 
 SELECT * FROM "Track" WHERE "Composer" = 'Queen';
+
+-------------------------------------------------------Lesson 2
+
+To install PsycoPG2 into workspace:
+pip3 install psycopg2
+
+Make new python file:
+touch sql-psycopg2.py (DO NOT NAME IT psycopg2.py AS THERE IS A FILE WITH THIS NAME IN THE PACKAGE ALREADY)
+
+To run the python file in the CLI:
+python3 sql-psycopg2.py
