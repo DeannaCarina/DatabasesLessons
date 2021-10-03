@@ -51,7 +51,7 @@ In this example, first collumn is the primary key ID, third collumn is the Forei
 
 SELECT * FROM "Track" WHERE "Composer" = 'Queen';
 
--------------------------------------------------------Lesson 2
+-------------------------------------------------------Lesson 2 (Psycopg2)
 
 To install PsycoPG2 into workspace:
 pip3 install psycopg2
@@ -61,3 +61,11 @@ touch sql-psycopg2.py (DO NOT NAME IT psycopg2.py AS THERE IS A FILE WITH THIS N
 
 To run the python file in the CLI:
 python3 sql-psycopg2.py
+
+-------------------------------------------------------Lesson 2 (ORM - object relational mapping)
+
+To install SQLAlchemy into workspace:
+pip3 install SQLAlchemy
+
+Make new python file:
+touch sql-expression.py
